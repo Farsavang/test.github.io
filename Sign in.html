@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FarYuki</title>
+    <link rel="stylesheet" href="output.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.5.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      h1 {
+        text-shadow: 0 0 30px #ff0000, 0 0 50px #0000ff;
+      }
+      input {
+        width: 500px;
+        height: 50px;
+      }
+      body {
+        background-image: url("a4.webp");
+        height: 999px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dropdown dropdown-hover">
+      <div tabindex="0" role="button" class="btn btn-outline btn-warning" >Menu</div>
+      <ul
+        tabindex="0"
+        class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+        <li><a href="Home.html" class="btn btn-outline">Home</a></li>
+        <li><a href="Sign in.html" class="btn btn-outline btn-primary">Sign in</a></li>
+        <li><a href="Sign up.html" class="btn btn-outline btn-secondary">Sign up</a></li>
+        <li><a href="Shop.html" class="btn btn-outline btn-accent">Shop</a></li>
+      </ul>
+    </div>
+
+    <center>
+      <h1 class="text-8xl font-bold underline">Sign in</h1>
+      <br /><br />
+
+      <label class="form-control w-full max-w-xs">
+        <div class="label">
+          <span class="label-text text-3xl">Frist name :</span>
+        </div>
+        <input
+          type="text"
+          placeholder="Ex: Farsavang"
+          class="input input-bordered input-primary w-full max-w-xs"
+        /><br />
+        <div class="label">
+          <span class="label-text text-3xl">Last name :</span>
+        </div>
+        <input
+          type="text"
+          placeholder="Ex: PHIMMAVONGSA"
+          class="input input-bordered input-primary w-full max-w-xs"
+        /><br />
+        <div class="label">
+          <span class="label-text text-3xl">Email :</span>
+        </div>
+        <input
+          type="text"
+          class="input input-bordered input-primary w-full max-w-xs"
+        /><br>
+        <div class="label">
+          <span class="label-text text-3xl">Username :</span>
+        </div>
+        <input
+          type="text"
+          class="input input-bordered input-primary w-full max-w-xs"
+        /><br>
+        <div class="label">
+          <span class="label-text text-3xl">Password :</span>
+        </div>
+        <input
+          type="text"
+          class="input input-bordered input-primary w-full max-w-xs"
+        />
+      </label>
+      <br />
+      <input
+        type="checkbox"
+        checked="checked"
+        class="checkbox border-orange-400 checked:border-indigo-800 [--chkbg:theme(colors.indigo.600)] [--chkfg:orange]"
+      /><br>   I am human <br><br>
+      <a href="http://127.0.0.1:5501/src/Thank.html"<button class="btn btn-outline btn-info">Sign in</button></a>
+    </center>
+  </body>
+</html>
